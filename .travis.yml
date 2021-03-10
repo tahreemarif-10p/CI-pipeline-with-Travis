@@ -19,7 +19,6 @@ before_script:
 - createdb payg_service_test -O payg -T template0
 
 script:
-- python -m unittest tests/test_class.py
 - tox
 
 # deploy:
